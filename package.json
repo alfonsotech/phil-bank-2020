@@ -1,0 +1,42 @@
+{
+  "name": "phil-bank-2020",
+  "version": "1.0.0",
+  "description": "Crowdsource and rank online Philosophy resources.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alfonsotech/phil-bank-2020.git"
+  },
+  "keywords": [
+    "philosophy",
+    "continental philosophy",
+    "feminist philosophy"
+  ],
+  "author": "AlfonsoTech",
+  "license": "MIT",
+  "devDependencies": {
+    "concurrently": "^5.1.0",
+    "nodemon": "^2.0.2"
+  },
+  "bugs": {
+    "url": "https://github.com/alfonsotech/phil-bank-2020/issues"
+  },
+  "engines": {
+    "node": "10.15.2"
+  },
+  "homepage": "https://github.com/alfonsotech/phil-bank-2020#readme",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "body-parser": "^1.19.0",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "link-preview": "^1.0.0",
+    "mongoose": "^5.9.2",
+    "mongoose-paginate": "^5.0.3",
+    "nightmare": "^3.0.2"
+  }
+}
