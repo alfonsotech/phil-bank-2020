@@ -7,13 +7,15 @@ Added in last version:Infinite scrolling and resource preview that includes reso
 
 ## Getting Started
 
+#### Please Note: You wont be able to run this code locally, but can find a deployed version of the app on Heroku: https://philosophybank.herokuapp.com/
+
 1. Fork the phil-bank repo.
 2. Clone your forked repo.
 3. Change directories into the project folder ```cd philosophy-bank```
 4. Run server.js file ```nodemon server.js``` or ```npm start```
 5. Open a new tab in your terminal and change directories into the ```client``` folder, build the public files, then run the React, client side server: ```cd client && yarn build && yarn start```
 
-#### You can find a deployed version of the app on Heroku: https://philosophybank.herokuapp.com/
+
 
 
 ## Built With
