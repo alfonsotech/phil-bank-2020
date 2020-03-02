@@ -1,0 +1,46 @@
+[
+ {
+	"_id": {
+		"$oid": "5cc5cd865eca7a00166ab7f2"
+	},
+	"author": [],
+	"categories": [
+		"philosophy"
+	],
+	"path": [],
+	"title": "Philosophy: Kant on Space Part 1 - YouTube",
+	"url": "https://www.youtube.com/embed/vQnG0fyEr_w",
+	"description": null,
+	"upvotes": 1,
+	"views": 0,
+	"notes": [],
+	"mediaType": "www.youtube.com",
+	"pathPosition": [],
+	"date": {
+		"$date": "2019-04-28T15:57:58.275Z"
+	},
+	"__v": 0
+},
+{
+    "_id": {
+        "$oid": "5cc49c102d2dc8001689a770"
+    },
+    "author": [],
+    "categories": [
+        "philosophy"
+    ],
+    "path": [],
+    "title": "An Introduction to Heidegger: Being and Time - YouTube",
+    "url": "https://www.youtube.com/embed/eDAyhsZ-Gs4",
+    "description": null,
+    "upvotes": 1,
+    "views": 1,
+    "notes": [],
+    "mediaType": "www.youtube.com",
+    "pathPosition": [],
+    "date": {
+        "$date": "2019-04-27T18:14:40.755Z"
+    },
+    "__v": 0
+  }
+]
