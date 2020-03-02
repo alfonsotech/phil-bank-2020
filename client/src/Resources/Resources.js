@@ -22,7 +22,7 @@ class Resources extends Component {
   }
 
   render() {
-    //Proof of concept - TODO:Refactor this filter
+    {/* Proof of concept - TODO:Refactor this filter */}
     let filteredResources = this.props.resources.filter(
       resource => {
         let description, title, author, categories, path, level;
