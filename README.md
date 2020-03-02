@@ -3,6 +3,8 @@
 Application that allows users to crowdsource, rank, and search online philosophy content.
 Last added: Infinite scrolling and resource preview that includes resource image or video, title, description, and name of online source.
 
+This is a more tidy version of the original repository found here: https://github.com/alfonsotech/philosophybank
+
 
 ## Getting Started
 
