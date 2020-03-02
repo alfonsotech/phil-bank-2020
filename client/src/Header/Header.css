@@ -1,0 +1,41 @@
+.Header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgba(67,167,239, .8);
+  padding: 10px;
+}
+.Header div h1, .Header div h1 small {
+  font-size: 18px;
+  color: black;
+  margin:0;
+  padding: 0;
+}
+form {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+  flex-wrap: wrap;
+}
+button {
+  font-size: 10px;
+  margin-left: 3px;
+}
+
+@media only screen and (max-width: 600px) {
+  .Header {
+    flex-direction: column;
+  }
+  form {
+    margin: 10px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  button {
+    margin-left: 0;
+    margin-top: 3px;
+  }
+}

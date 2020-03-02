@@ -10,7 +10,7 @@ const nightmare = Nightmare()
 
 module.exports = {
   findAll: function(req, res) {
-    var options = {
+    const options = {
       page: parseInt(req.query.page),
       limit: 10
     };
@@ -21,7 +21,7 @@ module.exports = {
     })
   },
   findTrending: function(req, res){
-    var options = {
+    const options = {
       sort: {
         upvotes: -1,
         views: -1,
@@ -37,7 +37,7 @@ module.exports = {
     })
   },
   findMostViewed: function(req, res){
-    var options = {
+    const options = {
       sort: {
         views: -1,
         date: -1
@@ -52,7 +52,7 @@ module.exports = {
     })
   },
   findNew: function(req, res){
-    var options = {
+    const options = {
       sort: {
         date: -1,
         upvotes: -1,

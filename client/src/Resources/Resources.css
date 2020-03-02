@@ -1,0 +1,76 @@
+.Resources {
+  /* background-image: url('/ben-neale-244395.jpg');
+	background-blend-mode: screen;
+  padding: 40px; */
+  background-color: rgba(234, 245, 253, .2);
+}
+.resources {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+}
+
+.views-container {
+  text-align: left;
+  padding-left: 40px;
+  border-bottom:1px solid rgba(0,0,0,1);
+}
+.Resources h2 {
+  color: black;
+  font-size: 1.5em;
+}
+.Resources a {
+  color: black
+}
+.Resources a:hover {
+  color: black
+}
+.categories {
+  outline: 1px solid red;
+  padding: 1px;
+}
+.search-box {
+  text-align: center;
+  margin: 40px auto 10px auto;
+  width: 80%;
+
+}
+.search-box input {
+  padding: 10px;
+  width: 50%;
+}
+.header-button {
+  border:none;
+  /* color: black; change color */
+}
+.form-control {
+  width: 300px;
+}
+.list-item {
+  width: 80%;
+  padding: 40px 0;
+}
+.resource-img {
+  width: 150px;
+}
+.loading {
+  text-align: center;
+}
+
+@media only screen and (max-width: 600px) {
+  .Resources h2 {
+    font-size: 1em;
+  }
+  .search-box {
+    font-size: 12px;
+    text-align: center;
+  }
+  .search-box input {
+    width: 100%;
+  }
+  .form-control, input {
+    border-width: 1px;
+  }
+}
