@@ -8,7 +8,7 @@ This is a more tidy version of the original repository found here: https://githu
 
 ## Getting Started
 
-#### Please Note: You wont be able to run this code locally, but can find a deployed version of the app on Heroku: https://philosophybank.herokuapp.com/
+#### Please Note: You wont be able to run this code locally, but can find a deployed version of the app on Heroku: https://philosophybank.herokuapp.com/ Right now, it loads very slowly so please be patient.
 
 1. Fork the phil-bank repo.
 2. Clone your forked repo.
